@@ -1,6 +1,6 @@
 # Total fitness plus
-    [purplepenguin67](@gmaillcom) [Email Me](snodgrassdouglas@gmail.com)
-    ReadMe shortcut.  MIT
+    [purplepenguin67 [Email Me](snodgrassdouglas@gmail.com)
+     MIT
  
     
     
