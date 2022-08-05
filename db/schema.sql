@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS courses_db;
+CREATE DATABASE courses_db;

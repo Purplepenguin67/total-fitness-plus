@@ -15,6 +15,9 @@ router.post('/', async (req, res) => {
 });
 
 router.delete('/:id', async (req, res) => {
+    if (req.session.usertype !== "tutor") {
+        return ('You are Not authorized')
+    }
   try {
     const coursesData = await courses.destroy({
       where: {
@@ -33,5 +36,6 @@ router.delete('/:id', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
 
 module.exports = router;
