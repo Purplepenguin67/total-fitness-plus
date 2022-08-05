@@ -9,11 +9,11 @@
     "express-session": "^1.17.3",
     "handlebars": "^4.7.7",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.19",
     "sequelize": "^6.21.3",
     "uuid": "^8.3.2"
   },
   "scripts": {
+    "devStart": "nodemon auth.js",
     "start": "node server.js"
   },
   "name": "total-fitness-plus",
@@ -34,6 +34,7 @@
   "devDependencies": {
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.19",
     "prettier": "^2.7.1"
   }
 }
