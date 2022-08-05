@@ -17,5 +17,22 @@
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.7.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "total-fitness-plus",
+  "description": "[purplepenguin67 [Email Me](snodgrassdouglas@gmail.com)      MIT",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Purplepenguin67/total-fitness-plus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Purplepenguin67/total-fitness-plus/issues"
+  },
+  "homepage": "https://github.com/Purplepenguin67/total-fitness-plus#readme"
 }
