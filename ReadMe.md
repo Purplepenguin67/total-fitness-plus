@@ -4,7 +4,7 @@
  
     
     
-    #Repository Description
+    ##Repository Description
     This is a fitness/weight loss website that helos the user understand how many calories they are consuming and to also helo them  find workouts plans. 
 
     #Acceptance Criteria
@@ -23,7 +23,7 @@
     
     
     
-    Test Instructions
+    ##Test Instructions
     1.  click on deployed Heroku link :
     2.  undefined
     3.  undefined
@@ -34,7 +34,7 @@
     
     
     
-   #Teammates
+   ##Teammates
    Douglas Snodgrass - purplepenguin67
    Aleena Johns - aleenaalexia
    Leon Poon - leonpoonn
