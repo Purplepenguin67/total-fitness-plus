@@ -40,8 +40,8 @@ courses.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'Courses',
+    modelName: 'courses',
   }
 );
 
-module.exports = Courses;
+module.exports = courses;

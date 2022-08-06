@@ -2,6 +2,9 @@ const router = require('express').Router();
 const { courses } = require('../../models');
 
 router.post('/', async (req, res) => {
+  if (req.session.usertype !== "tutor") {
+    return ('You are Not authorized')
+} else { 
   try {
     const courses = await courses.create({
       ...req.body,
@@ -12,12 +15,13 @@ router.post('/', async (req, res) => {
   } catch (err) {
     res.status(400).json(err);
   }
+}
 });
 
 router.delete('/:id', async (req, res) => {
     if (req.session.usertype !== "tutor") {
         return ('You are Not authorized')
-    }
+    } else {
   try {
     const coursesData = await courses.destroy({
       where: {
@@ -35,6 +39,7 @@ router.delete('/:id', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
+}
 });
 
 
