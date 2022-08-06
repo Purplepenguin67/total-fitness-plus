@@ -16,24 +16,24 @@ app.post('/users', async (req, res) => {
         // console.log(salt);
         // console.log(hashedPassword);
         const user = { name: req.body.name, password: hashedPassword };
-    users.push(user);
-    res.status(201).send();
+        users.push(user);
+        res.status(201).send();
     } catch {
         res.status(500).send();
-    } 
+    }
 });
 
 app.post('/users/login', async (req, res) => {
     const user = users.find(user => user.name = req.body.name)
-    if(user == null) {
+    if (user == null) {
         return res.status(400).send('User Invalid')
     }
     try {
-       if(await bcrypt.compare(req.body.password, user.password)) {
-        res.send('User logged in')
-       } else {
-        res.send('Not Allowed')
-       }
+        if (await bcrypt.compare(req.body.password, user.password)) {
+            res.send('User logged in')
+        } else {
+            res.send('Not Allowed')
+        }
     } catch {
         res.status(500).send();
     }
