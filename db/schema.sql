@@ -1,2 +1,4 @@
-DROP DATABASE IF EXISTS courses_db;
-CREATE DATABASE courses_db;
+
+DROP DATABASE IF EXISTS totalfitnessplus_db;
+CREATE DATABASE totalfitnessplus_db;
+

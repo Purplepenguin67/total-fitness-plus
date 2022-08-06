@@ -1,3 +1,4 @@
+
 const User = require('./User');
 const courses = require('./courses');
 const user_courses = require('./user_courses');
@@ -13,3 +14,4 @@ user_courses.hasMany(User, {
   });
 
 module.exports = { User, courses, user_courses };
+
