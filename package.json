@@ -9,8 +9,32 @@
     "express-session": "^1.17.3",
     "handlebars": "^4.7.7",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.19",
     "sequelize": "^6.21.3",
     "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "devStart": "nodemon auth.js",
+    "start": "node server.js"
+  },
+  "name": "total-fitness-plus",
+  "description": "[purplepenguin67 [Email Me](snodgrassdouglas@gmail.com)      MIT",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Purplepenguin67/total-fitness-plus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Purplepenguin67/total-fitness-plus/issues"
+  },
+  "homepage": "https://github.com/Purplepenguin67/total-fitness-plus#readme",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
   }
 }
