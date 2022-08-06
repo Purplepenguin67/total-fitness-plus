@@ -48,11 +48,20 @@ router.get('/register', (req, res) => {
         res.redirect('/login');
     } else {
     try {
-
- 
+      const user_coursesData = await user_courses.destroy({
+        where: {
+          courses_id: req.params.id, 
+          user_id: req.session.user_id,
+        }
+      });
+      if (!user_coursesData) {
+        res.status(404).json({ message: 'No class found in your account!' });
+        return;
+      }  
+      res.status(200).json(user_coursesData);
             
-          //render here
-  
+          //render here  
+          
     } catch (err) {
       res.status(400).json(err);
     }

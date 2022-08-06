@@ -1,13 +1,15 @@
 const User = require('./User');
 const courses = require('./courses');
+const user_courses = require('./user_courses');
 
-User.hasMany(courses, {
+user_courses.hasMany(courses, {
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
 });
 
-courses.hasone(User, {
+user_courses.hasMany(User, {
     foreignKey: 'courses_id',
+    onDelete: 'CASCADE'
   });
 
-module.exports = { User, courses };
+module.exports = { User, courses, user_courses };
