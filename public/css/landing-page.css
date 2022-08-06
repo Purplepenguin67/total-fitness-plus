@@ -1,0 +1,105 @@
+/* screen - landing-page */
+
+.landing-page {
+  background-color: var(--outer-space);
+  height: 1065px;
+  position: relative;
+  width: 1920px;
+}
+
+.landing-page .title {
+  -webkit-text-stroke: 1px var(--black);
+  color: #eeeeee;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  left: 34px;
+  letter-spacing: 0;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000040;
+  top: -2px;
+  width: 614px;
+}
+
+.landing-page .overlap-group2 {
+  height: 917px;
+  left: 0;
+  position: absolute;
+  top: 148px;
+  width: 1920px;
+}
+
+.landing-page .your-weight-loss-guide {
+  left: 39px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 624px;
+}
+
+.landing-page .push-up-guy-1 {
+  height: 814px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 103px;
+  width: 1920px;
+}
+
+.landing-page .join-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 97px;
+  left: 1096px;
+  min-width: 335px;
+  position: absolute;
+  top: 52px;
+}
+
+.landing-page .overlap-group {
+  height: 97px;
+  position: relative;
+  width: 333px;
+}
+
+.landing-page .rectangle-1 {
+  background-color: var(--fun-blue);
+  border-radius: 10px;
+  height: 97px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 332px;
+}
+
+.landing-page .join-now {
+  height: 97px;
+  left: 1px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 332px;
+}
+
+.landing-page .join-button-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 97px;
+  left: 1513px;
+  min-width: 335px;
+  position: absolute;
+  top: 52px;
+}
+
+.landing-page .discover {
+  height: 97px;
+  left: 1px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 332px;
+}
