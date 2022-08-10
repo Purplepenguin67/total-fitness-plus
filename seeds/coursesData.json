@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Swimming",
+      "description": "We will teach you basic swimming skill in 4 classes.",
+      "date_start": "08/01/22",
+      "date_end": "09/01/22"
+    },
+    {
+      "name": "Body-building",
+      "description": "It designed for you to lose weight and especially for blue-collar employees.",
+      "date_start": "09/01/22",
+      "date_end": "10/01/22"
+    }
+  ]

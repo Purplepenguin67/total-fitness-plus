@@ -1,2 +1,5 @@
-DROP DATABASE IF EXISTS fitness_goals_db;
-CREATE DATABASE fitness_goals_db;
+
+
+DROP DATABASE IF EXISTS totalfitnessplus_db;
+CREATE DATABASE totalfitnessplus_db;
+

@@ -1,3 +1,4 @@
+
 /* eslint-disable indent */
 /* eslint-disable no-trailing-spaces */
 
@@ -17,6 +18,7 @@ const seedDatabase = async () => {
   
 
 
+
 for (const goal of goalData) {
     await Goal.create({
       ...goal,
@@ -26,3 +28,4 @@ for (const goal of goalData) {
   process.exit(0);
 };
 seedDatabase();
+

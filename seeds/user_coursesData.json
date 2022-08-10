@@ -1,0 +1,37 @@
+[
+    {
+      "user_id": "1",
+      "courses_id": "2"
+    },
+    {
+        "user_id": "2",
+        "courses_id": "1"
+      },
+      {
+        "user_id": "2",
+        "courses_id": "2"
+      }, {
+        "user_id": "3",
+        "courses_id": "1"
+      }, {
+        "user_id": "4",
+        "courses_id": "2"
+      }, {
+        "user_id": "5",
+        "courses_id": "2"
+      }, {
+        "user_id": "6",
+        "courses_id": "2"
+      }, {
+        "user_id": "7",
+        "courses_id": "2"
+      },
+      {
+        "user_id": "5",
+        "courses_id": "1"
+      }, {
+        "user_id": "6",
+        "courses_id": "1"
+      }
+
+  ]

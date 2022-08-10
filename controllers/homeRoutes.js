@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
     
 
 
-    const goals = goalData.map((project) => goal.get({ plain: true }));
+    const goals = goalData.map((goal) => goal.get({ plain: true }));
     
 
     res.render('homepage', { 
