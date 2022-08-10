@@ -28,7 +28,7 @@ router.get('/', async (req, res) => {
     res.status(500).json(err);
   }
 });
-router.get('/project/:id', async (req, res) => {
+router.get('/goal/:id', async (req, res) => {
   try {
     const goalData = await Goal.findByPk(req.params.id, {
       include: [
@@ -39,7 +39,7 @@ router.get('/project/:id', async (req, res) => {
       ],
     });
     const goal = goalData.get({ plain: true });
-    res.render('project', {
+    res.render('goal', {
       ...goal,
       logged_in: req.session.logged_in
     });

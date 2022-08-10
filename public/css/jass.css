@@ -13,6 +13,9 @@ body {
 }
 
 
+
+
+
 main {
   display: block;
 }
@@ -24,6 +27,8 @@ h1 {
 }
 
 
+
+
 hr {
   box-sizing: content-box;
   
@@ -32,6 +37,9 @@ hr {
   overflow: visible;
   
 }
+
+
+
 
 
 pre {
@@ -60,6 +68,9 @@ b,
 strong {
   font-weight: bolder;
 }
+
+
+
 
 
 code,
@@ -94,9 +105,13 @@ sup {
 }
 
 
+
+
 img {
   border-style: none;
 }
+
+
 
 
 button,
@@ -137,6 +152,8 @@ button,
 }
 
 
+
+
 button::-moz-focus-inner,
 [type='button']::-moz-focus-inner,
 [type='reset']::-moz-focus-inner,
@@ -144,6 +161,8 @@ button::-moz-focus-inner,
   border-style: none;
   padding: 0;
 }
+
+
 
 
 button:-moz-focusring,
@@ -157,6 +176,8 @@ button:-moz-focusring,
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
+
+
 
 
 legend {
@@ -175,9 +196,12 @@ legend {
 }
 
 
+
 progress {
   vertical-align: baseline;
 }
+
+
 
 
 textarea {

@@ -1,3 +1,5 @@
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable indent */
 const newFormHandler = async (event) => {
   event.preventDefault();
 
@@ -27,6 +29,8 @@ const newFormHandler = async (event) => {
   }
 };
 
+
+
 const delButtonHandler = async (event) => {
   if (event.target.hasAttribute('data-id')) {
     const id = event.target.getAttribute('data-id');
@@ -43,10 +47,13 @@ const delButtonHandler = async (event) => {
   }
 };
 
+
 document
   .querySelector('.new-project-form')
   .addEventListener('submit', newFormHandler);
 
-document
+
+  // eslint-disable-next-line indent
+  document
   .querySelector('.project-list')
   .addEventListener('click', delButtonHandler);
