@@ -1,45 +1,24 @@
 [
     {
-      "name": "Sal",
-      "email": "sal@hotmail.com",
-      "password": "password12345",
-      "usertype": "student"
+
+      "name": "John",
+      "email": "John@gmail.com",
+      "password": "124123snacks"
     },
     {
-      "name": "Lernantino",
-      "email": "lernantino@gmail.com",
-      "password": "password12345",
-      "usertype": "student"
+      "name": "Brittany",
+      "email": "Brittan@yahoo.com",
+      "password": "password12345"
     },
     {
-      "name": "Amiko",
-      "email": "amiko2k20@aol.com",
-      "password": "password12345",
-      "usertype": "tutor"
+      "name": "David",
+      "email": "furrybunny@gamil.com",
+      "password": "yogurtmaidright23"
     },
     {
-        "name": "Douglas",
-        "email": "Douglas@gmail.com",
-        "password": "password12345",
-        "usertype": "tutor"
-      },
-      {
-        "name": "Leon",
-        "email": "Leon@gmail.com",
-        "password": "password12345",
-        "usertype": "student"
-      },
-      {
-        "name": "Aleena",
-        "email": "Aleena@gmail.com",
-        "password": "password12345",
-        "usertype": "student"
-      },
-      {
-        "name": "qing",
-        "email": "qing@gmail.com",
-        "password": "password12345",
-        "usertype": "student"
+        "name": "Erika",
+        "email": "yellowonion@yahoo.com",
+        "password": "1234password"
       }
   ]
-  
+

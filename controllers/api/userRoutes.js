@@ -1,3 +1,4 @@
+/* eslint-disable no-trailing-spaces */
 
 const router = require('express').Router();
 const { User } = require('../../models');
@@ -26,7 +27,7 @@ router.post('/login', async (req, res) => {
     if (!userData) {
       res
         .status(400)
-        .json({ message: 'Incorrect email or password, please try again' });
+        .json({ message: 'Incorrect password try again' });
       return;
     }
 
@@ -35,7 +36,7 @@ router.post('/login', async (req, res) => {
     if (!validPassword) {
       res
         .status(400)
-        .json({ message: 'Incorrect email or password, please try again' });
+        .json({ message: 'Incorrect password try again' });
       return;
     }
 
@@ -44,7 +45,7 @@ router.post('/login', async (req, res) => {
       req.session.usertype = userData.usertype;
       req.session.logged_in = true;
       
-      res.json({ user: userData, message: 'You are now logged in!' });
+      res.json({ user: userData, message: 'Your logged on!' });
     });
 
 

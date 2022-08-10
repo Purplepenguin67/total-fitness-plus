@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
@@ -39,6 +40,7 @@ User.init(
         type: DataTypes.STRING,
         allowNull: false,
     },
+    // eslint-disable-next-line no-trailing-spaces
     
 
     hooks: {

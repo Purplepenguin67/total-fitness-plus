@@ -1,30 +1,31 @@
+
+/* eslint-disable indent */
+/* eslint-disable no-trailing-spaces */
+
 const sequelize = require('../config/connection');
-const { User, courses, user_courses } = require('../models');
-
+const { User, Goal } = require('../models');
 const userData = require('./userData.json');
-const coursesData = require('./coursesData.json');
-const user_coursesData = require('./user_coursesData.json');
-
-
+const goalData = require('./goalData.json');
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
+  
 
-    const users = await User.bulkCreate(userData, {
+	// eslint-disable-next-line indent
+	const users = await User.bulkCreate(userData, {
     individualHooks: true,
     returning: true,
   });
   
-    const courses = await courses.bulkCreate(coursesData, {
-    individualHooks: true,
-    returning: true,
-  });
 
-    const user_courses = await user_courses.bulkCreate(user_coursesData, {
-    individualHooks: true,
-    returning: true,
-  });
 
+
+for (const goal of goalData) {
+    await Goal.create({
+      ...goal,
+      user_id: users[Math.floor(Math.random() * users.length)].id,
+    });
+  }
   process.exit(0);
 };
-
 seedDatabase();
+
