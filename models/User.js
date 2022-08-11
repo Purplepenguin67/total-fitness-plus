@@ -1,4 +1,3 @@
-/* eslint-disable indent */
 const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
@@ -33,16 +32,11 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        len: [10],
+        len: [8],
       },
     },
-    usertype: {
-        type: DataTypes.STRING,
-        allowNull: false,
-    },
-    // eslint-disable-next-line no-trailing-spaces
-    
-
+  },
+  {
     hooks: {
       beforeCreate: async (newUserData) => {
         newUserData.password = await bcrypt.hash(newUserData.password, 10);
@@ -58,7 +52,7 @@ User.init(
     freezeTableName: true,
     underscored: true,
     modelName: 'user',
-  },
+  }
 );
 
 module.exports = User;

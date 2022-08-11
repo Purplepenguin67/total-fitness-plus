@@ -1,25 +1,13 @@
-/* eslint-disable indent */
-
 const User = require('./User');
+const Project = require('./Project');
 
-const Goal = require('./Goal');
-
-
-
-
-
-
-user_goals.hasMany(goals, {
+User.hasMany(Project, {
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
 });
 
+Project.belongsTo(User, {
+  foreignKey: 'user_id'
+});
 
-
-user_goals.hasMany(User, {
-    foreignKey: 'courses_id',
-    onDelete: 'CASCADE'
-  });
-
-module.exports = { User, Goal };
-
+module.exports = { User, Project };
