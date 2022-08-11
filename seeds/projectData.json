@@ -1,0 +1,17 @@
+[
+  {
+    "name": "John",
+    "description": "To fit into my old jeans",
+    "needed_funding": 20
+  },
+  {
+    "name": "Brittany",
+    "description": "I want to fit into my wedding dress",
+    "needed_funding": 30
+  },
+  {
+    "name": "David",
+    "description": "I want to run a 5k",
+    "needed_funding": 15
+  }
+]

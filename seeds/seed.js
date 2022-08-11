@@ -1,31 +1,25 @@
-
-/* eslint-disable indent */
-/* eslint-disable no-trailing-spaces */
-
 const sequelize = require('../config/connection');
-const { User, Goal } = require('../models');
+const { User, Project } = require('../models');
+
 const userData = require('./userData.json');
-const goalData = require('./goalData.json');
+const projectData = require('./projectData.json');
+
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
-  
 
-	// eslint-disable-next-line indent
-	const users = await User.bulkCreate(userData, {
+  const users = await User.bulkCreate(userData, {
     individualHooks: true,
     returning: true,
   });
-  
 
-
-
-for (const goal of goalData) {
-    await Goal.create({
-      ...goal,
+  for (const project of projectData) {
+    await Project.create({
+      ...project,
       user_id: users[Math.floor(Math.random() * users.length)].id,
     });
   }
+
   process.exit(0);
 };
-seedDatabase();
 
+seedDatabase();

@@ -1,13 +1,11 @@
-/* eslint-disable no-trailing-spaces */
 const loginFormHandler = async (event) => {
   event.preventDefault();
 
-  
+
   const email = document.querySelector('#email-login').value.trim();
   const password = document.querySelector('#password-login').value.trim();
 
   if (email && password) {
-    // eslint-disable-next-line no-trailing-spaces
     
     const response = await fetch('/api/users/login', {
       method: 'POST',
@@ -53,3 +51,4 @@ document
 document
   .querySelector('.signup-form')
   .addEventListener('submit', signupFormHandler);
+  

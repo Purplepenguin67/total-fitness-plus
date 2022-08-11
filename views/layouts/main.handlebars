@@ -4,18 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Total fitness plus</title>
+  <title>Total Fitness Plus</title>
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
-
+<style>
+  body {
+    background-color: rgb(173, 180, 200);
+  }
+ 
+</style>
 <body>
   <div class="flex-column justify-space-around">
     <header class="display-flex justify-space-between align-center p-2">
       <h1>
-        <span role="img" aria-label="money"></span>
-        <a href="/">Total fitness plus</a>
-      </h1>
+        <a href="/">Total Fitness Plus</a>
+        </h1>
       <nav>
         
         {{#if logged_in}}
@@ -26,8 +30,10 @@
         {{/if}}
       </nav>
     </header>
+
+    
     <main class="container container-fluid mt-5">
-      
+     
       {{{ body }}}
     </main>
     <footer>
@@ -35,7 +41,7 @@
     </footer>
   </div>
 
- 
+  
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}

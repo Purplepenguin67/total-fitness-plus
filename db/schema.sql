@@ -1,5 +1,2 @@
-
-
-DROP DATABASE IF EXISTS totalfitnessplus_db;
-CREATE DATABASE totalfitnessplus_db;
-
+DROP DATABASE IF EXISTS fitnessplus_db;
+CREATE DATABASE fitnessplus_db;
