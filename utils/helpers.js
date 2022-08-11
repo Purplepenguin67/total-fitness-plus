@@ -11,6 +11,8 @@ module.exports = {
     const randomNum = Math.random();
 
     
+
+    
     if (randomNum > 0.7) {
       return `<span for="img" aria-label="lightbulb">💡</span>`;
     } else if (randomNum > 0.4) {
