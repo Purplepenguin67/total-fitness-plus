@@ -44,7 +44,9 @@ Heroku:
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![log in screen](https://user-images.githubusercontent.com/103548864/184260326-4d3b01be-cbc4-4783-9fc2-379ea10ff889.png)![image](https://user-images.githubusercontent.com/103548864/184260417-37446317-6194-4cfe-b985-bdb568a35eaa.png)
+
+![Profile page](https://user-images.githubusercontent.com/103548864/184260341-8a766a52-aff3-4e0a-bfe7-2ea64a32a1e3.png)![image](https://user-images.githubusercontent.com/103548864/184260434-23315e9e-2132-4ccb-8dd0-56416fb5a813.png)
 
 
 ## Tech Stack
