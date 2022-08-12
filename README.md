@@ -37,10 +37,8 @@ Have a quality README (with unique name, description, technologies used, screens
 
 To deploy this project check links
 
-Github:
-
-Heroku:
-
+Github: [](https://github.com/Purplepenguin67/total-fitness-plus.git)
+Heroku: [](https://total-fitness-plus67.herokuapp.com/)
 
 ## Screenshots
 
