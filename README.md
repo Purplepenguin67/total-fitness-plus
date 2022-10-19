@@ -1,7 +1,7 @@
 
 # Total Fitness Plus
 
-This is a fitness/weight loss website that helos the user understand how many calories they are consuming and to also helo them  find workouts plans.
+This is a fitness/weight loss website that helps the user understand how many calories they are consuming and to also helps them find workouts plans.
 
 
 ## Acceptance Criteria
